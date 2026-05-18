@@ -25,3 +25,19 @@ This is a public repository. Do not commit any private information, API keys, mn
 - `submissions/`: Official submissions for the program.
 - `templates/`: Templates for daily notes and task notes.
 - `notes/web3/`: My Web3 study notes and chapter summaries.
+---
+
+## WeChat / Hermes Sync
+
+This repository is meant to work as the shared learning workspace for both desktop Hermes and WeChat-connected Hermes sessions.
+
+### What this means
+- Notes, plans, and daily progress can be stored here once and reused across sessions.
+- When using WeChat, follow the same repo structure and skill workflow as desktop.
+- Keep sensitive information out of public files.
+
+### Recommended workflow
+1. Put study notes in `notes/web3/` or `daily/`.
+2. Keep short check-ins in `daily/`.
+3. Put task-specific outputs in `tasks/` or `submissions/`.
+4. Use the same Hermes skills for both desktop and WeChat sessions.
