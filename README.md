@@ -24,3 +24,4 @@ This is a public repository. Do not commit any private information, API keys, mn
 - `hackathon/`: Ideas and work for hackathon projects.
 - `submissions/`: Official submissions for the program.
 - `templates/`: Templates for daily notes and task notes.
+- `notes/web3/`: My Web3 study notes and chapter summaries.
