@@ -1,17 +1,59 @@
-# Task: {{Task Name}}
+# Task: 任务名称
 
-- **Task ID:**
-- **Due Date:**
-- **Handbook Chapter:**
+- **WCB Task ID**: `cmXXXXXXXX...`
+- **WCB Task Title**: Week X｜模块｜任务名
+- **Points**: NN
+- **Submitted**: YYYY-MM-DD
+- **Handbook 关联章节**:
+  - [zh/handbook/<板块>/<章节>](https://aiweb3.school/zh/handbook/...)
 
-## Analysis & Approach
+## 一句话总结
 
--
+任务完成的核心成果是什么，最值得记的洞察是什么。
 
-## Solution / Output
+## 实操内容 / 输出
 
--
+### 基本信息
 
-## Learnings
+| 字段 | 值 |
+|---|---|
+| 测试网 / 工具 / 项目 | ... |
+| 关键地址 / 标识 | ... |
+| 关键交易 / 链接 | ... |
 
--
+### 详细过程
+
+按时间或步骤展开。包括：
+- 我做了什么（具体到点击哪个按钮、运行哪个命令）
+- 看到了什么（截图说明 / 数据输出 / 错误信息）
+- 哪里需要人工确认 / 哪里 Agent 帮忙了
+
+## 关键观察 / 学到的东西
+
+### 1. 观察一
+具体洞察 + 为什么重要
+
+### 2. 观察二
+...
+
+## 必须人工确认的步骤（如适用）
+
+| 步骤 | 为什么必须人工 |
+|---|---|
+| ... | ... |
+
+## 验证链接
+
+- 主提交链接: GitHub repo 内的本文件 URL
+- 链上验证: tx hash / 合约地址 + Blockscout 链接
+- 辅助参考: 其他外部链接
+
+## 关联学习
+
+- 关联的 daily note：[`daily/YYYY-MM-DD.md`](../daily/YYYY-MM-DD.md)
+- 关联的其他 task / 概念笔记
+- 个人方向的应用：产品研究方向能从这道题里取走什么？
+
+## AI 辅助说明（如果用 AI 辅助起草）
+
+简短说明 AI 在这个 task 里做了什么、你人工复核了什么。WCB 部分 task 明确要求这一段。

@@ -1,0 +1,37 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local secrets — NEVER commit these
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*.private
+mnemonic.txt
+seed.txt
+
+# Build / dependency artifacts (in case of Hardhat / Foundry projects under experiments/ later)
+node_modules/
+artifacts/
+cache/
+out/
+typechain-types/
+broadcast/
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS-specific
+Thumbs.db
+ehthumbs.db

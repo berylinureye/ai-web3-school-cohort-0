@@ -1,0 +1,9 @@
+# Placeholder for hackathon project (Week 2+)
+#
+# 这个文件夹保留给后续 hackathon 项目使用。
+# 建议结构（Week 2 后填充）：
+#   hackathon/
+#     proposal.md       # 项目提案
+#     design.md         # 设计文档
+#     prototype/        # 原型代码 / 设计稿
+#     submission.md     # 最终提交文档
