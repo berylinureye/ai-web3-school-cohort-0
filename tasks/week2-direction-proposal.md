@@ -242,6 +242,19 @@ Agent 不应该直接执行。它必须：
 4. 用错误网络 case 测 UI / Agent 是否停止。
 5. 用 tx hash 生成 proof report。
 
+### 受限支付钱包四个 Case
+
+为了让 proposal 不停留在抽象策略，我会用一个 “Agent 一天内最多花 5 USDC 支付白名单 API” 的最小场景验证：
+
+| Case | Agent 想做什么 | Policy / Guard 判断 | 结果 | 证明什么 |
+|---|---|---|---|---|
+| 正常 | 支付 1 USDC 给白名单 API Provider A | 金额未超限，地址在白名单，函数为 `pay()` | 执行并记录 tx / event | Agent 能在受限范围内自动执行 |
+| 超限 | 支付 6 USDC 给 Provider A | 超过每日 5 USDC | 直接拒绝，不诱导用户临场破例 | Policy 是硬边界 |
+| 异常 | 支付 1 USDC 给 Unknown Address B | 地址不在白名单 | Guard 拦截，不广播交易 | Guard 拦住越界目标 |
+| 撤销 | 用户 revoke session key 后 Agent 再次支付 | session key 已失效 | 拒绝执行 | 用户保留最终控制权 |
+
+这个 case 的重点不是支付本身，而是验证四件事：有限授权、自动执行、随时撤销、可追踪。
+
 ## 7. 方向 Backlog
 
 | 方向 | 暂时不选原因 |
